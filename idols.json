@@ -1,815 +1,102 @@
-{
-  "name": "Idol Gacha Database",
-  "version": "1.0",
-  "total": 100,
-  "rarity_order": [
-    "Common",
-    "Uncommon",
-    "Rare",
-    "Epic",
-    "Legendary"
-  ],
-  "note": "Popularity-based rarity is approximate. image_url uses an Instagram avatar lookup endpoint and may change or fail if the profile username/provider is unavailable.",
-  "idols": [
-    {
-      "id": 1,
-      "name": "Hina",
-      "group": "tripleS",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/hinatriples"
-    },
-    {
-      "id": 2,
-      "name": "Yubin",
-      "group": "tripleS",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/yubin_triples"
-    },
-    {
-      "id": 3,
-      "name": "Kaede",
-      "group": "tripleS",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/kaede_triples"
-    },
-    {
-      "id": 4,
-      "name": "Kotone",
-      "group": "tripleS",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/kotone_triples"
-    },
-    {
-      "id": 5,
-      "name": "Mayu",
-      "group": "tripleS",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/mayu_triples"
-    },
-    {
-      "id": 6,
-      "name": "Nien",
-      "group": "tripleS",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/nien_triples"
-    },
-    {
-      "id": 7,
-      "name": "Sullin",
-      "group": "tripleS",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/sullin_triples"
-    },
-    {
-      "id": 8,
-      "name": "Yeonji",
-      "group": "tripleS",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/yeonji_triples"
-    },
-    {
-      "id": 9,
-      "name": "Joobin",
-      "group": "tripleS",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/joobin_triples"
-    },
-    {
-      "id": 10,
-      "name": "Chaeyeon",
-      "group": "tripleS",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/chaeyeon_triples"
-    },
-    {
-      "id": 11,
-      "name": "Jiwon",
-      "group": "cignature",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/jiwon_cignature"
-    },
-    {
-      "id": 12,
-      "name": "Jeewon",
-      "group": "cignature",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/jeewon_cignature"
-    },
-    {
-      "id": 13,
-      "name": "Seline",
-      "group": "cignature",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/seline_cignature"
-    },
-    {
-      "id": 14,
-      "name": "Belle",
-      "group": "KISS OF LIFE",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/kissoflife_belle"
-    },
-    {
-      "id": 15,
-      "name": "Haneul",
-      "group": "KISS OF LIFE",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/kissoflife_haneul"
-    },
-    {
-      "id": 16,
-      "name": "Yuki",
-      "group": "PURPLE KISS",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/yuki_purplekiss"
-    },
-    {
-      "id": 17,
-      "name": "Dosie",
-      "group": "PURPLE KISS",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/dosie_purplekiss"
-    },
-    {
-      "id": 18,
-      "name": "Swan",
-      "group": "PURPLE KISS",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/swan_purplekiss"
-    },
-    {
-      "id": 19,
-      "name": "Jihan",
-      "group": "Weeekly",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/jihan.weeekly"
-    },
-    {
-      "id": 20,
-      "name": "Zoa",
-      "group": "Weeekly",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/zoa.weeekly"
-    },
-    {
-      "id": 21,
-      "name": "Monday",
-      "group": "Weeekly",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/monday.weeekly"
-    },
-    {
-      "id": 22,
-      "name": "Nana",
-      "group": "woo!ah!",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/wooah_nv"
-    },
-    {
-      "id": 23,
-      "name": "Wooyeon",
-      "group": "woo!ah!",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/wooah_wooyeon"
-    },
-    {
-      "id": 24,
-      "name": "Minseo",
-      "group": "woo!ah!",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/wooah_minseo"
-    },
-    {
-      "id": 25,
-      "name": "Jurin",
-      "group": "XG",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/xg_jurin"
-    },
-    {
-      "id": 26,
-      "name": "Harvey",
-      "group": "XG",
-      "country": "Korea",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/xg_harvey"
-    },
-    {
-      "id": 27,
-      "name": "Freya",
-      "group": "JKT48",
-      "country": "Indonesia",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/freyajkt48"
-    },
-    {
-      "id": 28,
-      "name": "Cathy",
-      "group": "JKT48",
-      "country": "Indonesia",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/cathy.jkt48"
-    },
-    {
-      "id": 29,
-      "name": "Lulu",
-      "group": "JKT48",
-      "country": "Indonesia",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/lulu.jkt48"
-    },
-    {
-      "id": 30,
-      "name": "Olla",
-      "group": "JKT48",
-      "country": "Indonesia",
-      "rarity": "Common",
-      "image_url": "https://unavatar.io/instagram/olla.jkt48"
-    },
-    {
-      "id": 31,
-      "name": "Yoon",
-      "group": "STAYC",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/stayc_yoon"
-    },
-    {
-      "id": 32,
-      "name": "Isa",
-      "group": "STAYC",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/stayc_isa"
-    },
-    {
-      "id": 33,
-      "name": "Seeun",
-      "group": "STAYC",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/stayc_seeun"
-    },
-    {
-      "id": 34,
-      "name": "J",
-      "group": "STAYC",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/stayc_j"
-    },
-    {
-      "id": 35,
-      "name": "Hyojung",
-      "group": "OH MY GIRL",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/candyz_hyojung"
-    },
-    {
-      "id": 36,
-      "name": "YooA",
-      "group": "OH MY GIRL",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/yooa_"
-    },
-    {
-      "id": 37,
-      "name": "Arin",
-      "group": "OH MY GIRL",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/ye._.vely"
-    },
-    {
-      "id": 38,
-      "name": "Wendy",
-      "group": "Red Velvet",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/todayis_wendy"
-    },
-    {
-      "id": 39,
-      "name": "Joy",
-      "group": "Red Velvet",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/redvelvet.smtown"
-    },
-    {
-      "id": 40,
-      "name": "Yeri",
-      "group": "Red Velvet",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/yerimiese"
-    },
-    {
-      "id": 41,
-      "name": "Ningning",
-      "group": "aespa",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/imnotningning"
-    },
-    {
-      "id": 42,
-      "name": "Giselle",
-      "group": "aespa",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/aerichandesu"
-    },
-    {
-      "id": 43,
-      "name": "Lily",
-      "group": "NMIXX",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/lilyjinm"
-    },
-    {
-      "id": 44,
-      "name": "Haewon",
-      "group": "NMIXX",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/haewon.nmixx"
-    },
-    {
-      "id": 45,
-      "name": "Sullyoon",
-      "group": "NMIXX",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/sullyoon.nmixx"
-    },
-    {
-      "id": 46,
-      "name": "Bae",
-      "group": "NMIXX",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/bae_nmixx"
-    },
-    {
-      "id": 47,
-      "name": "Jiwoo",
-      "group": "NMIXX",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/jiwoo_nmixx"
-    },
-    {
-      "id": 48,
-      "name": "Yunjin",
-      "group": "LE SSERAFIM",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/jenaissante"
-    },
-    {
-      "id": 49,
-      "name": "Kazuha",
-      "group": "LE SSERAFIM",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/k_a_z_u_h_a__"
-    },
-    {
-      "id": 50,
-      "name": "Soyeon",
-      "group": "(G)I-DLE",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/tiny.pretty.j"
-    },
-    {
-      "id": 51,
-      "name": "Minnie",
-      "group": "(G)I-DLE",
-      "country": "Korea",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/min.nicha"
-    },
-    {
-      "id": 52,
-      "name": "Gita",
-      "group": "JKT48",
-      "country": "Indonesia",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/gita.jkt48"
-    },
-    {
-      "id": 53,
-      "name": "Flora",
-      "group": "JKT48",
-      "country": "Indonesia",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/flora.jkt48"
-    },
-    {
-      "id": 54,
-      "name": "Fiony",
-      "group": "JKT48",
-      "country": "Indonesia",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/fiony.jkt48"
-    },
-    {
-      "id": 55,
-      "name": "Christy",
-      "group": "JKT48",
-      "country": "Indonesia",
-      "rarity": "Uncommon",
-      "image_url": "https://unavatar.io/instagram/christy.jkt48"
-    },
-    {
-      "id": 56,
-      "name": "Chaeryeong",
-      "group": "ITZY",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/chaerrry0"
-    },
-    {
-      "id": 57,
-      "name": "Lia",
-      "group": "ITZY",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/lia_lia_itzy"
-    },
-    {
-      "id": 58,
-      "name": "Ryujin",
-      "group": "ITZY",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/ryujin__itzy"
-    },
-    {
-      "id": 59,
-      "name": "Yeji",
-      "group": "ITZY",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/yezyizhere"
-    },
-    {
-      "id": 60,
-      "name": "Yuna",
-      "group": "ITZY",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/yuna_itzy"
-    },
-    {
-      "id": 61,
-      "name": "Jihyo",
-      "group": "TWICE",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/jy_piece"
-    },
-    {
-      "id": 62,
-      "name": "Jeongyeon",
-      "group": "TWICE",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/jy_piece"
-    },
-    {
-      "id": 63,
-      "name": "Mina",
-      "group": "TWICE",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/mina_sr_my"
-    },
-    {
-      "id": 64,
-      "name": "Dahyun",
-      "group": "TWICE",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/dahhyunnee"
-    },
-    {
-      "id": 65,
-      "name": "Chaewon",
-      "group": "LE SSERAFIM",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/_chaechae_1"
-    },
-    {
-      "id": 66,
-      "name": "Sakura",
-      "group": "LE SSERAFIM",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/39saku_chan"
-    },
-    {
-      "id": 67,
-      "name": "Eunchae",
-      "group": "LE SSERAFIM",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/hhh.e_c.v"
-    },
-    {
-      "id": 68,
-      "name": "Yujin",
-      "group": "IVE",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/_yujin_an"
-    },
-    {
-      "id": 69,
-      "name": "Liz",
-      "group": "IVE",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/liz.yeyo"
-    },
-    {
-      "id": 70,
-      "name": "Rei",
-      "group": "IVE",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/reinyourheart"
-    },
-    {
-      "id": 71,
-      "name": "Miyeon",
-      "group": "(G)I-DLE",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/noodle.zip"
-    },
-    {
-      "id": 72,
-      "name": "Yuqi",
-      "group": "(G)I-DLE",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/yuqisong.923"
-    },
-    {
-      "id": 73,
-      "name": "Marsha",
-      "group": "JKT48",
-      "country": "Indonesia",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/marsha.jkt48"
-    },
-    {
-      "id": 74,
-      "name": "Zee",
-      "group": "JKT48",
-      "country": "Indonesia",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/zee.jkt48"
-    },
-    {
-      "id": 75,
-      "name": "Ten",
-      "group": "NCT",
-      "country": "Korea",
-      "rarity": "Rare",
-      "image_url": "https://unavatar.io/instagram/tenlee_1001"
-    },
-    {
-      "id": 76,
-      "name": "Nayeon",
-      "group": "TWICE",
-      "country": "Korea",
-      "rarity": "Epic",
-      "image_url": "https://unavatar.io/instagram/nayeonyny"
-    },
-    {
-      "id": 77,
-      "name": "Sana",
-      "group": "TWICE",
-      "country": "Korea",
-      "rarity": "Epic",
-      "image_url": "https://unavatar.io/instagram/m.by__sana"
-    },
-    {
-      "id": 78,
-      "name": "Momo",
-      "group": "TWICE",
-      "country": "Korea",
-      "rarity": "Epic",
-      "image_url": "https://unavatar.io/instagram/momo"
-    },
-    {
-      "id": 79,
-      "name": "Tzuyu",
-      "group": "TWICE",
-      "country": "Korea",
-      "rarity": "Epic",
-      "image_url": "https://unavatar.io/instagram/thinkaboutzu"
-    },
-    {
-      "id": 80,
-      "name": "Wonyoung",
-      "group": "IVE",
-      "country": "Korea",
-      "rarity": "Epic",
-      "image_url": "https://unavatar.io/instagram/for_everyoung10"
-    },
-    {
-      "id": 81,
-      "name": "Karina",
-      "group": "aespa",
-      "country": "Korea",
-      "rarity": "Epic",
-      "image_url": "https://unavatar.io/instagram/katarinabluu"
-    },
-    {
-      "id": 82,
-      "name": "Winter",
-      "group": "aespa",
-      "country": "Korea",
-      "rarity": "Epic",
-      "image_url": "https://unavatar.io/instagram/imwinter"
-    },
-    {
-      "id": 83,
-      "name": "Taeyeon",
-      "group": "Girls' Generation",
-      "country": "Korea",
-      "rarity": "Epic",
-      "image_url": "https://unavatar.io/instagram/taeyeon_ss"
-    },
-    {
-      "id": 84,
-      "name": "IU",
-      "group": "Solo",
-      "country": "Korea",
-      "rarity": "Epic",
-      "image_url": "https://unavatar.io/instagram/dlwlrma"
-    },
-    {
-      "id": 85,
-      "name": "Somi",
-      "group": "Solo",
-      "country": "Korea",
-      "rarity": "Epic",
-      "image_url": "https://unavatar.io/instagram/somsomi"
-    },
-    {
-      "id": 86,
-      "name": "Chungha",
-      "group": "Solo",
-      "country": "Korea",
-      "rarity": "Epic",
-      "image_url": "https://unavatar.io/instagram/chungha_official"
-    },
-    {
-      "id": 87,
-      "name": "Felix",
-      "group": "Stray Kids",
-      "country": "Korea",
-      "rarity": "Epic",
-      "image_url": "https://unavatar.io/instagram/yong.lixx"
-    },
-    {
-      "id": 88,
-      "name": "Hyunjin",
-      "group": "Stray Kids",
-      "country": "Korea",
-      "rarity": "Epic",
-      "image_url": "https://unavatar.io/instagram/h.jin"
-    },
-    {
-      "id": 89,
-      "name": "Melody",
-      "group": "JKT48",
-      "country": "Indonesia",
-      "rarity": "Epic",
-      "image_url": "https://unavatar.io/instagram/melodylaksani"
-    },
-    {
-      "id": 90,
-      "name": "Shani",
-      "group": "JKT48",
-      "country": "Indonesia",
-      "rarity": "Epic",
-      "image_url": "https://unavatar.io/instagram/shani_jkt48"
-    },
-    {
-      "id": 91,
-      "name": "Jennie",
-      "group": "BLACKPINK",
-      "country": "Korea",
-      "rarity": "Legendary",
-      "image_url": "https://unavatar.io/instagram/jennierubyjane"
-    },
-    {
-      "id": 92,
-      "name": "Jisoo",
-      "group": "BLACKPINK",
-      "country": "Korea",
-      "rarity": "Legendary",
-      "image_url": "https://unavatar.io/instagram/sooyaaa__"
-    },
-    {
-      "id": 93,
-      "name": "Lisa",
-      "group": "BLACKPINK",
-      "country": "Korea",
-      "rarity": "Legendary",
-      "image_url": "https://unavatar.io/instagram/lalalalisa_m"
-    },
-    {
-      "id": 94,
-      "name": "Rosé",
-      "group": "BLACKPINK",
-      "country": "Korea",
-      "rarity": "Legendary",
-      "image_url": "https://unavatar.io/instagram/roses_are_rosie"
-    },
-    {
-      "id": 95,
-      "name": "Jungkook",
-      "group": "BTS",
-      "country": "Korea",
-      "rarity": "Legendary",
-      "image_url": "https://unavatar.io/instagram/jungkook.97"
-    },
-    {
-      "id": 96,
-      "name": "V",
-      "group": "BTS",
-      "country": "Korea",
-      "rarity": "Legendary",
-      "image_url": "https://unavatar.io/instagram/thv"
-    },
-    {
-      "id": 97,
-      "name": "Jimin",
-      "group": "BTS",
-      "country": "Korea",
-      "rarity": "Legendary",
-      "image_url": "https://unavatar.io/instagram/j.m"
-    },
-    {
-      "id": 98,
-      "name": "RM",
-      "group": "BTS",
-      "country": "Korea",
-      "rarity": "Legendary",
-      "image_url": "https://unavatar.io/instagram/rkive"
-    },
-    {
-      "id": 99,
-      "name": "Nabilah",
-      "group": "JKT48",
-      "country": "Indonesia",
-      "rarity": "Legendary",
-      "image_url": "https://unavatar.io/instagram/nabilaholic"
-    },
-    {
-      "id": 100,
-      "name": "Freya",
-      "group": "JKT48",
-      "country": "Indonesia",
-      "rarity": "Legendary",
-      "image_url": "https://unavatar.io/instagram/freyajkt48"
-    }
-  ]
-    }
+{"idols":[
+{"id":"i001","name":"Moonbyul","group":"MAMAMOO","country":"Korea","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i001.jpg"},
+{"id":"i002","name":"Wheein","group":"MAMAMOO","country":"Korea","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i002.jpg"},
+{"id":"i003","name":"Sowon","group":"GFRIEND","country":"Korea","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i003.jpg"},
+{"id":"i004","name":"Eunha","group":"GFRIEND","country":"Korea","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i004.jpg"},
+{"id":"i005","name":"Umji","group":"GFRIEND","country":"Korea","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i005.jpg"},
+{"id":"i006","name":"Yerin","group":"GFRIEND","country":"Korea","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i006.jpg"},
+{"id":"i007","name":"Seunghee","group":"Oh My Girl","country":"Korea","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i007.jpg"},
+{"id":"i008","name":"YooA","group":"Oh My Girl","country":"Korea","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i008.jpg"},
+{"id":"i009","name":"Siyeon","group":"Dreamcatcher","country":"Korea","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i009.jpg"},
+{"id":"i010","name":"Dami","group":"Dreamcatcher","country":"Korea","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i010.jpg"},
+{"id":"i011","name":"Kosaka Nao","group":"Hinatazaka46","country":"Japan","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i011.jpg"},
+{"id":"i012","name":"Kato Shi","group":"Hinatazaka46","country":"Japan","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i012.jpg"},
+{"id":"i013","name":"Saito Kyoko","group":"Hinatazaka46","country":"Japan","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i013.jpg"},
+{"id":"i014","name":"Takase Mana","group":"Hinatazaka46","country":"Japan","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i014.jpg"},
+{"id":"i015","name":"Riku","group":"NiziU","country":"Japan","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i015.jpg"},
+{"id":"i016","name":"Ayaka","group":"NiziU","country":"Japan","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i016.jpg"},
+{"id":"i017","name":"Maya","group":"NiziU","country":"Japan","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i017.jpg"},
+{"id":"i018","name":"Rima","group":"NiziU","country":"Japan","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i018.jpg"},
+{"id":"i019","name":"Miihi","group":"NiziU","country":"Japan","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i019.jpg"},
+{"id":"i020","name":"Nina","group":"NiziU","country":"Japan","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i020.jpg"},
+{"id":"i021","name":"Fritzy Rosmerian","group":"JKT48","country":"Indonesia","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i021.jpg"},
+{"id":"i022","name":"Flora Shafiq Riyadi","group":"JKT48","country":"Indonesia","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i022.jpg"},
+{"id":"i023","name":"Cathy Immanuela","group":"JKT48","country":"Indonesia","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i023.jpg"},
+{"id":"i024","name":"Aurhel Alexandrie","group":"JKT48","country":"Indonesia","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i024.jpg"},
+{"id":"i025","name":"Feni Fitriyanti","group":"JKT48","country":"Indonesia","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i025.jpg"},
+{"id":"i026","name":"Michelle Alexandra","group":"JKT48","country":"Indonesia","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i026.jpg"},
+{"id":"i027","name":"Alya Amanda","group":"JKT48","country":"Indonesia","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i027.jpg"},
+{"id":"i028","name":"Kathrina Irene","group":"JKT48","country":"Indonesia","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i028.jpg"},
+{"id":"i029","name":"Jesslyn Elly","group":"JKT48","country":"Indonesia","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i029.jpg"},
+{"id":"i030","name":"Gendis Mayori","group":"JKT48","country":"Indonesia","rarity":"common","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i030.jpg"},
+{"id":"i031","name":"Wendy","group":"Red Velvet","country":"Korea","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i031.jpg"},
+{"id":"i032","name":"Joy","group":"Red Velvet","country":"Korea","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i032.jpg"},
+{"id":"i033","name":"Seulgi","group":"Red Velvet","country":"Korea","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i033.jpg"},
+{"id":"i034","name":"Yeri","group":"Red Velvet","country":"Korea","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i034.jpg"},
+{"id":"i035","name":"Taeyeon","group":"Girls' Generation","country":"Korea","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i035.jpg"},
+{"id":"i036","name":"Yoona","group":"Girls' Generation","country":"Korea","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i036.jpg"},
+{"id":"i037","name":"Solar","group":"MAMAMOO","country":"Korea","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i037.jpg"},
+{"id":"i038","name":"Hwasa","group":"MAMAMOO","country":"Korea","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i038.jpg"},
+{"id":"i039","name":"Eunji","group":"Apink","country":"Korea","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i039.jpg"},
+{"id":"i040","name":"Yuju","group":"GFRIEND","country":"Korea","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i040.jpg"},
+{"id":"i041","name":"Kubo Shiori","group":"Nogizaka46","country":"Japan","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i041.jpg"},
+{"id":"i042","name":"Kaki Haruka","group":"Nogizaka46","country":"Japan","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i042.jpg"},
+{"id":"i043","name":"Kanemura Miku","group":"Hinatazaka46","country":"Japan","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i043.jpg"},
+{"id":"i044","name":"Moriya Rena","group":"Sakurazaka46","country":"Japan","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i044.jpg"},
+{"id":"i045","name":"Tamura Hono","group":"Sakurazaka46","country":"Japan","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i045.jpg"},
+{"id":"i046","name":"Mako","group":"NiziU","country":"Japan","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i046.jpg"},
+{"id":"i047","name":"Rio","group":"NiziU","country":"Japan","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i047.jpg"},
+{"id":"i048","name":"Callista Alifia","group":"JKT48","country":"Indonesia","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i048.jpg"},
+{"id":"i049","name":"Aurellia","group":"JKT48","country":"Indonesia","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i049.jpg"},
+{"id":"i050","name":"Jessica Chandra","group":"JKT48","country":"Indonesia","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i050.jpg"},
+{"id":"i051","name":"Gita Sekar Andarini","group":"JKT48","country":"Indonesia","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i051.jpg"},
+{"id":"i052","name":"Lulu Salsabila","group":"JKT48","country":"Indonesia","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i052.jpg"},
+{"id":"i053","name":"Indah Cahya","group":"JKT48","country":"Indonesia","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i053.jpg"},
+{"id":"i054","name":"Indira Seruni","group":"JKT48","country":"Indonesia","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i054.jpg"},
+{"id":"i055","name":"Anindya Ramadhani","group":"JKT48","country":"Indonesia","rarity":"uncommon","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i055.jpg"},
+{"id":"i056","name":"Jihyo","group":"TWICE","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i056.jpg"},
+{"id":"i057","name":"Tzuyu","group":"TWICE","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i057.jpg"},
+{"id":"i058","name":"Mina","group":"TWICE","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i058.jpg"},
+{"id":"i059","name":"Ryujin","group":"ITZY","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i059.jpg"},
+{"id":"i060","name":"Lia","group":"ITZY","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i060.jpg"},
+{"id":"i061","name":"Yuna","group":"ITZY","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i061.jpg"},
+{"id":"i062","name":"Minnie","group":"(G)I-DLE","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i062.jpg"},
+{"id":"i063","name":"Yuqi","group":"(G)I-DLE","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i063.jpg"},
+{"id":"i064","name":"Miyeon","group":"(G)I-DLE","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i064.jpg"},
+{"id":"i065","name":"Shuhua","group":"(G)I-DLE","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i065.jpg"},
+{"id":"i066","name":"Sullyoon","group":"NMIXX","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i066.jpg"},
+{"id":"i067","name":"Haewon","group":"NMIXX","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i067.jpg"},
+{"id":"i068","name":"Ahyeon","group":"BABYMONSTER","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i068.jpg"},
+{"id":"i069","name":"Ruka","group":"BABYMONSTER","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i069.jpg"},
+{"id":"i070","name":"Wonhee","group":"ILLIT","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i070.jpg"},
+{"id":"i071","name":"Yunah","group":"ILLIT","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i071.jpg"},
+{"id":"i072","name":"Natty","group":"KISS OF LIFE","country":"Korea","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i072.jpg"},
+{"id":"i073","name":"Christy Chriselle","group":"JKT48","country":"Indonesia","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i073.jpg"},
+{"id":"i074","name":"Amanda Sukma","group":"JKT48","country":"Indonesia","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i074.jpg"},
+{"id":"i075","name":"Adhisty Zara","group":"JKT48","country":"Indonesia","rarity":"rare","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i075.jpg"},
+{"id":"i076","name":"Minji","group":"NewJeans","country":"Korea","rarity":"epic","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i076.jpg"},
+{"id":"i077","name":"Haerin","group":"NewJeans","country":"Korea","rarity":"epic","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i077.jpg"},
+{"id":"i078","name":"Danielle","group":"NewJeans","country":"Korea","rarity":"epic","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i078.jpg"},
+{"id":"i079","name":"Winter","group":"aespa","country":"Korea","rarity":"epic","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i079.jpg"},
+{"id":"i080","name":"Ningning","group":"aespa","country":"Korea","rarity":"epic","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i080.jpg"},
+{"id":"i081","name":"Yujin","group":"IVE","country":"Korea","rarity":"epic","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i081.jpg"},
+{"id":"i082","name":"Kim Chaewon","group":"LE SSERAFIM","country":"Korea","rarity":"epic","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i082.jpg"},
+{"id":"i083","name":"Kazuha","group":"LE SSERAFIM","country":"Korea","rarity":"epic","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i083.jpg"},
+{"id":"i084","name":"Nayeon","group":"TWICE","country":"Korea","rarity":"epic","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i084.jpg"},
+{"id":"i085","name":"Momo","group":"TWICE","country":"Korea","rarity":"epic","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i085.jpg"},
+{"id":"i086","name":"Sana","group":"TWICE","country":"Korea","rarity":"epic","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i086.jpg"},
+{"id":"i087","name":"Irene","group":"Red Velvet","country":"Korea","rarity":"epic","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i087.jpg"},
+{"id":"i088","name":"Yeji","group":"ITZY","country":"Korea","rarity":"epic","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i088.jpg"},
+{"id":"i089","name":"Azizi Asadel (Zee)","group":"JKT48","country":"Indonesia","rarity":"epic","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i089.jpg"},
+{"id":"i090","name":"Shania Gracia","group":"JKT48","country":"Indonesia","rarity":"epic","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i090.jpg"},
+{"id":"i091","name":"Jennie","group":"BLACKPINK","country":"Korea","rarity":"legendary","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i091.jpg"},
+{"id":"i092","name":"Lisa","group":"BLACKPINK","country":"Korea","rarity":"legendary","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i092.jpg"},
+{"id":"i093","name":"Rosé","group":"BLACKPINK","country":"Korea","rarity":"legendary","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i093.jpg"},
+{"id":"i094","name":"Karina","group":"aespa","country":"Korea","rarity":"legendary","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i094.jpg"},
+{"id":"i095","name":"Jang Wonyoung","group":"IVE","country":"Korea","rarity":"legendary","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i095.jpg"},
+{"id":"i096","name":"Hanni","group":"NewJeans","country":"Korea","rarity":"legendary","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i096.jpg"},
+{"id":"i097","name":"IU","group":"Solo Artist","country":"Korea","rarity":"legendary","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i097.jpg"},
+{"id":"i098","name":"Miyawaki Sakura","group":"LE SSERAFIM","country":"Korea","rarity":"legendary","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i098.jpg"},
+{"id":"i099","name":"Freya Jayawardana","group":"JKT48","country":"Indonesia","rarity":"legendary","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i099.jpg"},
+{"id":"i100","name":"Marsha Lenathea","group":"JKT48","country":"Indonesia","rarity":"legendary","image_url":"https://raw.githubusercontent.com/newaaoffice-lgtm/idol-gacha-db/refs/heads/main/img/i100.jpg"}
+]}
