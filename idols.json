@@ -1,0 +1,815 @@
+{
+  "name": "Idol Gacha Database",
+  "version": "1.0",
+  "total": 100,
+  "rarity_order": [
+    "Common",
+    "Uncommon",
+    "Rare",
+    "Epic",
+    "Legendary"
+  ],
+  "note": "Popularity-based rarity is approximate. image_url uses an Instagram avatar lookup endpoint and may change or fail if the profile username/provider is unavailable.",
+  "idols": [
+    {
+      "id": 1,
+      "name": "Hina",
+      "group": "tripleS",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/hinatriples"
+    },
+    {
+      "id": 2,
+      "name": "Yubin",
+      "group": "tripleS",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/yubin_triples"
+    },
+    {
+      "id": 3,
+      "name": "Kaede",
+      "group": "tripleS",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/kaede_triples"
+    },
+    {
+      "id": 4,
+      "name": "Kotone",
+      "group": "tripleS",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/kotone_triples"
+    },
+    {
+      "id": 5,
+      "name": "Mayu",
+      "group": "tripleS",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/mayu_triples"
+    },
+    {
+      "id": 6,
+      "name": "Nien",
+      "group": "tripleS",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/nien_triples"
+    },
+    {
+      "id": 7,
+      "name": "Sullin",
+      "group": "tripleS",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/sullin_triples"
+    },
+    {
+      "id": 8,
+      "name": "Yeonji",
+      "group": "tripleS",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/yeonji_triples"
+    },
+    {
+      "id": 9,
+      "name": "Joobin",
+      "group": "tripleS",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/joobin_triples"
+    },
+    {
+      "id": 10,
+      "name": "Chaeyeon",
+      "group": "tripleS",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/chaeyeon_triples"
+    },
+    {
+      "id": 11,
+      "name": "Jiwon",
+      "group": "cignature",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/jiwon_cignature"
+    },
+    {
+      "id": 12,
+      "name": "Jeewon",
+      "group": "cignature",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/jeewon_cignature"
+    },
+    {
+      "id": 13,
+      "name": "Seline",
+      "group": "cignature",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/seline_cignature"
+    },
+    {
+      "id": 14,
+      "name": "Belle",
+      "group": "KISS OF LIFE",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/kissoflife_belle"
+    },
+    {
+      "id": 15,
+      "name": "Haneul",
+      "group": "KISS OF LIFE",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/kissoflife_haneul"
+    },
+    {
+      "id": 16,
+      "name": "Yuki",
+      "group": "PURPLE KISS",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/yuki_purplekiss"
+    },
+    {
+      "id": 17,
+      "name": "Dosie",
+      "group": "PURPLE KISS",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/dosie_purplekiss"
+    },
+    {
+      "id": 18,
+      "name": "Swan",
+      "group": "PURPLE KISS",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/swan_purplekiss"
+    },
+    {
+      "id": 19,
+      "name": "Jihan",
+      "group": "Weeekly",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/jihan.weeekly"
+    },
+    {
+      "id": 20,
+      "name": "Zoa",
+      "group": "Weeekly",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/zoa.weeekly"
+    },
+    {
+      "id": 21,
+      "name": "Monday",
+      "group": "Weeekly",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/monday.weeekly"
+    },
+    {
+      "id": 22,
+      "name": "Nana",
+      "group": "woo!ah!",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/wooah_nv"
+    },
+    {
+      "id": 23,
+      "name": "Wooyeon",
+      "group": "woo!ah!",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/wooah_wooyeon"
+    },
+    {
+      "id": 24,
+      "name": "Minseo",
+      "group": "woo!ah!",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/wooah_minseo"
+    },
+    {
+      "id": 25,
+      "name": "Jurin",
+      "group": "XG",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/xg_jurin"
+    },
+    {
+      "id": 26,
+      "name": "Harvey",
+      "group": "XG",
+      "country": "Korea",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/xg_harvey"
+    },
+    {
+      "id": 27,
+      "name": "Freya",
+      "group": "JKT48",
+      "country": "Indonesia",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/freyajkt48"
+    },
+    {
+      "id": 28,
+      "name": "Cathy",
+      "group": "JKT48",
+      "country": "Indonesia",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/cathy.jkt48"
+    },
+    {
+      "id": 29,
+      "name": "Lulu",
+      "group": "JKT48",
+      "country": "Indonesia",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/lulu.jkt48"
+    },
+    {
+      "id": 30,
+      "name": "Olla",
+      "group": "JKT48",
+      "country": "Indonesia",
+      "rarity": "Common",
+      "image_url": "https://unavatar.io/instagram/olla.jkt48"
+    },
+    {
+      "id": 31,
+      "name": "Yoon",
+      "group": "STAYC",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/stayc_yoon"
+    },
+    {
+      "id": 32,
+      "name": "Isa",
+      "group": "STAYC",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/stayc_isa"
+    },
+    {
+      "id": 33,
+      "name": "Seeun",
+      "group": "STAYC",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/stayc_seeun"
+    },
+    {
+      "id": 34,
+      "name": "J",
+      "group": "STAYC",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/stayc_j"
+    },
+    {
+      "id": 35,
+      "name": "Hyojung",
+      "group": "OH MY GIRL",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/candyz_hyojung"
+    },
+    {
+      "id": 36,
+      "name": "YooA",
+      "group": "OH MY GIRL",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/yooa_"
+    },
+    {
+      "id": 37,
+      "name": "Arin",
+      "group": "OH MY GIRL",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/ye._.vely"
+    },
+    {
+      "id": 38,
+      "name": "Wendy",
+      "group": "Red Velvet",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/todayis_wendy"
+    },
+    {
+      "id": 39,
+      "name": "Joy",
+      "group": "Red Velvet",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/redvelvet.smtown"
+    },
+    {
+      "id": 40,
+      "name": "Yeri",
+      "group": "Red Velvet",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/yerimiese"
+    },
+    {
+      "id": 41,
+      "name": "Ningning",
+      "group": "aespa",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/imnotningning"
+    },
+    {
+      "id": 42,
+      "name": "Giselle",
+      "group": "aespa",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/aerichandesu"
+    },
+    {
+      "id": 43,
+      "name": "Lily",
+      "group": "NMIXX",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/lilyjinm"
+    },
+    {
+      "id": 44,
+      "name": "Haewon",
+      "group": "NMIXX",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/haewon.nmixx"
+    },
+    {
+      "id": 45,
+      "name": "Sullyoon",
+      "group": "NMIXX",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/sullyoon.nmixx"
+    },
+    {
+      "id": 46,
+      "name": "Bae",
+      "group": "NMIXX",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/bae_nmixx"
+    },
+    {
+      "id": 47,
+      "name": "Jiwoo",
+      "group": "NMIXX",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/jiwoo_nmixx"
+    },
+    {
+      "id": 48,
+      "name": "Yunjin",
+      "group": "LE SSERAFIM",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/jenaissante"
+    },
+    {
+      "id": 49,
+      "name": "Kazuha",
+      "group": "LE SSERAFIM",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/k_a_z_u_h_a__"
+    },
+    {
+      "id": 50,
+      "name": "Soyeon",
+      "group": "(G)I-DLE",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/tiny.pretty.j"
+    },
+    {
+      "id": 51,
+      "name": "Minnie",
+      "group": "(G)I-DLE",
+      "country": "Korea",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/min.nicha"
+    },
+    {
+      "id": 52,
+      "name": "Gita",
+      "group": "JKT48",
+      "country": "Indonesia",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/gita.jkt48"
+    },
+    {
+      "id": 53,
+      "name": "Flora",
+      "group": "JKT48",
+      "country": "Indonesia",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/flora.jkt48"
+    },
+    {
+      "id": 54,
+      "name": "Fiony",
+      "group": "JKT48",
+      "country": "Indonesia",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/fiony.jkt48"
+    },
+    {
+      "id": 55,
+      "name": "Christy",
+      "group": "JKT48",
+      "country": "Indonesia",
+      "rarity": "Uncommon",
+      "image_url": "https://unavatar.io/instagram/christy.jkt48"
+    },
+    {
+      "id": 56,
+      "name": "Chaeryeong",
+      "group": "ITZY",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/chaerrry0"
+    },
+    {
+      "id": 57,
+      "name": "Lia",
+      "group": "ITZY",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/lia_lia_itzy"
+    },
+    {
+      "id": 58,
+      "name": "Ryujin",
+      "group": "ITZY",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/ryujin__itzy"
+    },
+    {
+      "id": 59,
+      "name": "Yeji",
+      "group": "ITZY",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/yezyizhere"
+    },
+    {
+      "id": 60,
+      "name": "Yuna",
+      "group": "ITZY",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/yuna_itzy"
+    },
+    {
+      "id": 61,
+      "name": "Jihyo",
+      "group": "TWICE",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/jy_piece"
+    },
+    {
+      "id": 62,
+      "name": "Jeongyeon",
+      "group": "TWICE",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/jy_piece"
+    },
+    {
+      "id": 63,
+      "name": "Mina",
+      "group": "TWICE",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/mina_sr_my"
+    },
+    {
+      "id": 64,
+      "name": "Dahyun",
+      "group": "TWICE",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/dahhyunnee"
+    },
+    {
+      "id": 65,
+      "name": "Chaewon",
+      "group": "LE SSERAFIM",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/_chaechae_1"
+    },
+    {
+      "id": 66,
+      "name": "Sakura",
+      "group": "LE SSERAFIM",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/39saku_chan"
+    },
+    {
+      "id": 67,
+      "name": "Eunchae",
+      "group": "LE SSERAFIM",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/hhh.e_c.v"
+    },
+    {
+      "id": 68,
+      "name": "Yujin",
+      "group": "IVE",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/_yujin_an"
+    },
+    {
+      "id": 69,
+      "name": "Liz",
+      "group": "IVE",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/liz.yeyo"
+    },
+    {
+      "id": 70,
+      "name": "Rei",
+      "group": "IVE",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/reinyourheart"
+    },
+    {
+      "id": 71,
+      "name": "Miyeon",
+      "group": "(G)I-DLE",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/noodle.zip"
+    },
+    {
+      "id": 72,
+      "name": "Yuqi",
+      "group": "(G)I-DLE",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/yuqisong.923"
+    },
+    {
+      "id": 73,
+      "name": "Marsha",
+      "group": "JKT48",
+      "country": "Indonesia",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/marsha.jkt48"
+    },
+    {
+      "id": 74,
+      "name": "Zee",
+      "group": "JKT48",
+      "country": "Indonesia",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/zee.jkt48"
+    },
+    {
+      "id": 75,
+      "name": "Ten",
+      "group": "NCT",
+      "country": "Korea",
+      "rarity": "Rare",
+      "image_url": "https://unavatar.io/instagram/tenlee_1001"
+    },
+    {
+      "id": 76,
+      "name": "Nayeon",
+      "group": "TWICE",
+      "country": "Korea",
+      "rarity": "Epic",
+      "image_url": "https://unavatar.io/instagram/nayeonyny"
+    },
+    {
+      "id": 77,
+      "name": "Sana",
+      "group": "TWICE",
+      "country": "Korea",
+      "rarity": "Epic",
+      "image_url": "https://unavatar.io/instagram/m.by__sana"
+    },
+    {
+      "id": 78,
+      "name": "Momo",
+      "group": "TWICE",
+      "country": "Korea",
+      "rarity": "Epic",
+      "image_url": "https://unavatar.io/instagram/momo"
+    },
+    {
+      "id": 79,
+      "name": "Tzuyu",
+      "group": "TWICE",
+      "country": "Korea",
+      "rarity": "Epic",
+      "image_url": "https://unavatar.io/instagram/thinkaboutzu"
+    },
+    {
+      "id": 80,
+      "name": "Wonyoung",
+      "group": "IVE",
+      "country": "Korea",
+      "rarity": "Epic",
+      "image_url": "https://unavatar.io/instagram/for_everyoung10"
+    },
+    {
+      "id": 81,
+      "name": "Karina",
+      "group": "aespa",
+      "country": "Korea",
+      "rarity": "Epic",
+      "image_url": "https://unavatar.io/instagram/katarinabluu"
+    },
+    {
+      "id": 82,
+      "name": "Winter",
+      "group": "aespa",
+      "country": "Korea",
+      "rarity": "Epic",
+      "image_url": "https://unavatar.io/instagram/imwinter"
+    },
+    {
+      "id": 83,
+      "name": "Taeyeon",
+      "group": "Girls' Generation",
+      "country": "Korea",
+      "rarity": "Epic",
+      "image_url": "https://unavatar.io/instagram/taeyeon_ss"
+    },
+    {
+      "id": 84,
+      "name": "IU",
+      "group": "Solo",
+      "country": "Korea",
+      "rarity": "Epic",
+      "image_url": "https://unavatar.io/instagram/dlwlrma"
+    },
+    {
+      "id": 85,
+      "name": "Somi",
+      "group": "Solo",
+      "country": "Korea",
+      "rarity": "Epic",
+      "image_url": "https://unavatar.io/instagram/somsomi"
+    },
+    {
+      "id": 86,
+      "name": "Chungha",
+      "group": "Solo",
+      "country": "Korea",
+      "rarity": "Epic",
+      "image_url": "https://unavatar.io/instagram/chungha_official"
+    },
+    {
+      "id": 87,
+      "name": "Felix",
+      "group": "Stray Kids",
+      "country": "Korea",
+      "rarity": "Epic",
+      "image_url": "https://unavatar.io/instagram/yong.lixx"
+    },
+    {
+      "id": 88,
+      "name": "Hyunjin",
+      "group": "Stray Kids",
+      "country": "Korea",
+      "rarity": "Epic",
+      "image_url": "https://unavatar.io/instagram/h.jin"
+    },
+    {
+      "id": 89,
+      "name": "Melody",
+      "group": "JKT48",
+      "country": "Indonesia",
+      "rarity": "Epic",
+      "image_url": "https://unavatar.io/instagram/melodylaksani"
+    },
+    {
+      "id": 90,
+      "name": "Shani",
+      "group": "JKT48",
+      "country": "Indonesia",
+      "rarity": "Epic",
+      "image_url": "https://unavatar.io/instagram/shani_jkt48"
+    },
+    {
+      "id": 91,
+      "name": "Jennie",
+      "group": "BLACKPINK",
+      "country": "Korea",
+      "rarity": "Legendary",
+      "image_url": "https://unavatar.io/instagram/jennierubyjane"
+    },
+    {
+      "id": 92,
+      "name": "Jisoo",
+      "group": "BLACKPINK",
+      "country": "Korea",
+      "rarity": "Legendary",
+      "image_url": "https://unavatar.io/instagram/sooyaaa__"
+    },
+    {
+      "id": 93,
+      "name": "Lisa",
+      "group": "BLACKPINK",
+      "country": "Korea",
+      "rarity": "Legendary",
+      "image_url": "https://unavatar.io/instagram/lalalalisa_m"
+    },
+    {
+      "id": 94,
+      "name": "Rosé",
+      "group": "BLACKPINK",
+      "country": "Korea",
+      "rarity": "Legendary",
+      "image_url": "https://unavatar.io/instagram/roses_are_rosie"
+    },
+    {
+      "id": 95,
+      "name": "Jungkook",
+      "group": "BTS",
+      "country": "Korea",
+      "rarity": "Legendary",
+      "image_url": "https://unavatar.io/instagram/jungkook.97"
+    },
+    {
+      "id": 96,
+      "name": "V",
+      "group": "BTS",
+      "country": "Korea",
+      "rarity": "Legendary",
+      "image_url": "https://unavatar.io/instagram/thv"
+    },
+    {
+      "id": 97,
+      "name": "Jimin",
+      "group": "BTS",
+      "country": "Korea",
+      "rarity": "Legendary",
+      "image_url": "https://unavatar.io/instagram/j.m"
+    },
+    {
+      "id": 98,
+      "name": "RM",
+      "group": "BTS",
+      "country": "Korea",
+      "rarity": "Legendary",
+      "image_url": "https://unavatar.io/instagram/rkive"
+    },
+    {
+      "id": 99,
+      "name": "Nabilah",
+      "group": "JKT48",
+      "country": "Indonesia",
+      "rarity": "Legendary",
+      "image_url": "https://unavatar.io/instagram/nabilaholic"
+    },
+    {
+      "id": 100,
+      "name": "Freya",
+      "group": "JKT48",
+      "country": "Indonesia",
+      "rarity": "Legendary",
+      "image_url": "https://unavatar.io/instagram/freyajkt48"
+    }
+  ]
+    }
